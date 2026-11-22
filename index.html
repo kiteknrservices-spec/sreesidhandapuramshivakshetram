@@ -83,6 +83,31 @@
     @media(max-width:920px){nav{gap:12px;font-size:.8rem}.brand strong{font-size:.9rem}}
     @media(max-width:760px){.navwrap{min-height:72px}.menu-btn{display:block}nav{display:none;position:absolute;left:0;right:0;top:72px;background:var(--wine);padding:14px 22px 22px;flex-direction:column;align-items:stretch;gap:0}nav.open{display:flex}nav a{padding:10px 0;border-bottom:1px solid #684238;font-size:.92rem}.intro-grid,.festival,.contact-grid{grid-template-columns:1fr}.cards{grid-template-columns:1fr}.offerings-grid{grid-template-columns:repeat(2,1fr)}.gallery-grid{grid-template-columns:repeat(2,1fr)}.footer-grid{grid-template-columns:1fr 1fr}.footer-grid>div:first-child{grid-column:1/-1}.hero{min-height:540px}.fact{padding:16px 8px}.fact b{font-size:.85rem}.fact span{font-size:.72rem}section{padding:62px 0}}
     @media(max-width:430px){.container{width:min(100% - 28px,1160px)}.brand small{font-size:.67rem}.emblem{width:42px;height:42px}.offerings-grid,.gallery-grid{grid-template-columns:1fr 1fr}.offering{padding:15px}.noticebox{display:block}.noticebox .btn{margin-top:15px}.footer-grid{grid-template-columns:1fr}.footer-grid>div:first-child{grid-column:auto}}
+
+    /* ===== ക്ഷേത്ര പരിചയം ===== */
+    .about{background:var(--cream)}
+    .about .section-head{max-width:820px}
+    .about-lead{font-size:1.1rem;color:var(--ink)!important}
+    .about-photos{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:16px;margin-bottom:40px}
+    .about-photo{margin:0;border-radius:8px;overflow:hidden;aspect-ratio:4/3;background:#3a1b15;box-shadow:0 14px 32px #381b1620;position:relative}
+    .about-photo:first-child{aspect-ratio:auto}
+    .about-photo .ph{width:100%;height:100%;min-height:200px;display:grid;place-content:center;text-align:center;gap:2px;color:#f1d18a;background:linear-gradient(160deg,#79502c,#3a1b15 70%)}
+    .about-photo .ph span{font-size:3.6rem;line-height:1.2;opacity:.55}.about-photo .ph small{font-size:.8rem;color:#f6e7c7;opacity:.8}
+    .about-photo img{width:100%;height:100%;object-fit:cover;display:block;cursor:zoom-in;transition:transform .35s}
+    .about-photo:hover img{transform:scale(1.05)}
+    .about-intro{max-width:820px;margin:0 auto 34px;text-align:center;color:#62564c}
+    .about-intro p{margin:0}
+    .timeline{max-width:960px;margin:0 auto 50px;display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+    .tl-item{background:var(--paper);border:1px solid var(--line);border-top:3px solid var(--gold);border-radius:8px;padding:16px 14px;text-align:center}
+    .tl-item b{display:block;color:var(--wine);font-size:1.45rem;line-height:1.3}
+    .tl-item span{display:block;color:var(--muted);font-size:.85rem;line-height:1.7;margin-top:4px}
+    .story{max-width:820px;margin:0 auto}
+    .story-block{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:26px 30px;margin-bottom:18px;box-shadow:0 8px 24px #4b2b1710}
+    .story-block h3{color:var(--wine);font-size:1.2rem;margin:0 0 12px;padding-left:14px;border-left:4px solid var(--gold);line-height:1.5}
+    .story-block p{margin:0 0 14px;color:#4f443b;line-height:2;text-align:left}
+    .story-block p:last-child{margin-bottom:0}
+    @media(max-width:760px){.about-photos{grid-template-columns:1fr 1fr}.about-photo:first-child{grid-column:1/-1;aspect-ratio:16/10}.timeline{grid-template-columns:1fr 1fr}.story-block{padding:20px 18px}}
+    @media(max-width:430px){.timeline{grid-template-columns:1fr}}
   </style>
 </head>
 <body>
@@ -118,13 +143,56 @@
       <div class="fact"><b>ക്ഷേത്രസ്ഥാനം</b><span>പുതുപ്പണം, വടകര</span></div>
     </div></div>
 
-    <section id="about"><div class="container intro-grid">
-      <div class="temple-art"><div><strong>ശിവം ശാന്തം സുന്ദരം</strong><span>ഭക്തിയുടെയും വിശ്വാസത്തിന്റെയും പുണ്യസങ്കേതം</span></div></div>
-      <div class="copy"><div class="kicker">ക്ഷേത്ര പരിചയം</div><h2>ആത്മീയതയുടെ പുണ്യസങ്കേതം</h2>
-        <p class="lead">കോഴിക്കോട് ജില്ലയിലെ വടകരയ്ക്കടുത്തുള്ള പുതുപ്പണം പ്രദേശത്ത് സ്ഥിതി ചെയ്യുന്ന ശ്രീ സിദ്ധാന്തപുരം ശിവക്ഷേത്രത്തിലേക്ക് സ്വാഗതം.</p>
-        <p>ഭഗവാൻ പരമശിവനെയും ശ്രീ ഭഗവതിയെയും ആരാധിക്കുന്ന ഈ ക്ഷേത്രം ഭക്തിയുടെയും വിശ്വാസത്തിന്റെയും ആത്മീയ ചൈതന്യത്തിന്റെയും കേന്ദ്രമാണ്. ക്ഷേത്രത്തിലെ ആചാരാനുഷ്ഠാനങ്ങളും പൂജകളും വിശേഷദിനങ്ങളും നമ്മുടെ പാരമ്പര്യത്തിന്റെ ഭാഗമാണ്.</p>
-        <p>ക്ഷേത്രത്തിന്റെ ചരിത്രം, പൂജാ സമയങ്ങൾ, വഴിപാടുകൾ, ഉത്സവങ്ങൾ, അറിയിപ്പുകൾ എന്നിവ ഭക്തജനങ്ങളിലേക്ക് എത്തിക്കുക എന്നതാണ് ഈ വെബ്സൈറ്റിന്റെ ലക്ഷ്യം.</p>
-        <a class="readmore" href="#contact">കൂടുതൽ വിവരങ്ങൾക്ക് ബന്ധപ്പെടുക →</a>
+    <section id="about" class="about"><div class="container">
+      <div class="section-head"><div class="kicker">ക്ഷേത്ര പരിചയം</div><h2>ആത്മീയതയുടെ പുണ്യസങ്കേതം</h2>
+        <p class="about-lead">കോഴിക്കോട് ജില്ലയിലെ വടകരയ്ക്കടുത്തുള്ള പുതുപ്പണം പ്രദേശത്ത് സ്ഥിതി ചെയ്യുന്ന ശ്രീ സിദ്ധാന്തപുരം ശിവക്ഷേത്രത്തിലേക്ക് സ്വാഗതം.</p></div>
+
+      <div class="about-photos">
+        <figure class="about-photo" id="aboutPic1"><div class="ph"><span>ॐ</span><small>ചിത്രം 1</small></div></figure>
+        <figure class="about-photo" id="aboutPic2"><div class="ph"><span>ॐ</span><small>ചിത്രം 2</small></div></figure>
+        <figure class="about-photo" id="aboutPic3"><div class="ph"><span>ॐ</span><small>ചിത്രം 3</small></div></figure>
+      </div>
+
+      <div class="about-intro"><p>ഭഗവാൻ പരമശിവനെയും ശ്രീ ഭഗവതിയെയും ആരാധിക്കുന്ന ഈ ക്ഷേത്രം ഭക്തിയുടെയും വിശ്വാസത്തിന്റെയും ആത്മീയ ചൈതന്യത്തിന്റെയും കേന്ദ്രമാണ്. ക്ഷേത്രത്തിലെ ആചാരാനുഷ്ഠാനങ്ങളും പൂജകളും വിശേഷദിനങ്ങളും നമ്മുടെ പാരമ്പര്യത്തിന്റെ ഭാഗമാണ്.</p></div>
+
+      <div class="timeline" aria-label="പ്രധാന വർഷങ്ങൾ">
+        <div class="tl-item"><b>1969</b><span>സിദ്ധാന്തപുരം ക്ഷേത്രസംഘം രജിസ്റ്റർ ചെയ്തു</span></div>
+        <div class="tl-item"><b>2000</b><span>ജനകീയ ക്ഷേത്ര സമിതി അധികാരമേറ്റു</span></div>
+        <div class="tl-item"><b>2005</b><span>ശിവക്ഷേത്ര പുനർനിർമ്മാണം, ഷഡാധാര പ്രതിഷ്ഠ</span></div>
+        <div class="tl-item"><b>2014</b><span>പുനഃപ്രതിഷ്ഠയും നവീകരണകലശവും</span></div>
+      </div>
+
+      <div class="story">
+      <div class="story-block"><h3>ഐതിഹ്യവും ചരിത്രവും</h3>
+        <p>ആയിരത്തിലധികം വർഷം പഴക്കമുള്ളതെന്ന് വിശ്വസിക്കപ്പെടുന്ന ശ്രീ സിദ്ധാന്തപുരം ക്ഷേത്രം പ്രദേശത്തിന്റെ ആത്മീയവും സാംസ്കാരികവുമായ പൈതൃകത്തിന്റെ ഭാഗമാണ്.</p>
+        <p>കാരണവന്മാർ പറഞ്ഞുകേട്ട് അറിവുവെച്ച്, സിദ്ധാന്തപുരം ക്ഷേത്രത്തിന്റെ യഥാർത്ഥ അവകാശികൾ പുതുപ്പണം വാഴുന്നോർ ആയിരുന്നെന്നും, അവരുടെ ആസ്ഥാനം കോട്ടയാട്ട് കോവിലകം എന്ന തറവാടാണെന്നും പറഞ്ഞുകേട്ടിട്ടുണ്ട്. ഈ തറവാട് സാക്ഷാൽ തച്ചൊളി ഒതേനന്റെ അച്ഛന്റെ തറവാട് ആയിരുന്നെന്നും പറയപ്പെടുന്നു. കുടുംബക്ഷേത്രമായ സിദ്ധാന്തപുരം ക്ഷേത്രത്തിലെ യഥാർത്ഥ പ്രതിഷ്ഠ ദേവിയുടേതായിരുന്നു എന്നും, ക്ഷേത്രത്തിന്റെ ചുറ്റമ്പലത്തിന്റെയും മറ്റും അവശിഷ്ടങ്ങൾ ഇന്നും നമുക്ക് കാണാൻ കഴിയും.</p>
+        <p>എന്നാൽ കാലാന്തരത്തിൽ ക്ഷേത്രത്തിന് പടിഞ്ഞാറ് ദേശത്ത് മണ്ണിൽ പൂണ്ടുകിടന്ന ഒരു ശിവലിംഗം കാണപ്പെടുകയും, നാടുവഴിയും അനുചരന്മാരും ആ ശിവലിംഗം എടുത്തുകൊണ്ടുവന്നു സിദ്ധാന്തപുരം ദേവീക്ഷേത്രത്തിന്റെ വടക്കുഭാഗത്തായി പ്രതിഷ്ഠിക്കുകയും, ആരാധിച്ചുപോരുകയും ചെയ്തതാണെന്നും പറയപ്പെടുന്നു. അന്ന് ശിവലിംഗം കണ്ടെത്തിയ സ്ഥലം കല്ലുമുളച്ചിടം എന്ന് അറിയപ്പെടുകയും ചെയ്യുന്നു.</p>
+</div>
+      <div class="story-block"><h3>ക്ഷേത്രത്തിന്റെ ശോച്യാവസ്ഥ</h3>
+        <p>നാടുവാഴിത്തം അവസാനിച്ച്, സ്വാതന്ത്ര്യമെല്ലാം വേണ്ടം വെച്ച് പിരിഞ്ഞപ്പോൾ, കുടുംബക്ഷേത്രം ഉള്ള സ്ഥലം കൈവശം കിട്ടിയ അവകാശികൾക്ക് ക്ഷേത്രനടത്തിപ്പ് നേരോം വണ്ണവും കൊണ്ടുനടക്കാൻ സാധിക്കാതെ വരികയും, അന്നത്തെ ക്ഷേത്രത്തിലെ പൂജാദികർമ്മങ്ങൾ മുടങ്ങുകയും, ആരാലും ശ്രദ്ധിക്കപ്പെടാതെ ക്ഷേത്രം ഇടിഞ്ഞുപൊളിഞ്ഞുനശിക്കുകയും ചെയ്തു. അതിന്റെ ഫലമായി അവകാശികൾക്കൊക്കെ മാനസികവിഭ്രാന്തിയും മറ്റു നാശനഷ്ടങ്ങളും സംഭവിക്കുകയും ചെയ്തു.</p>
+        <p>എന്നാൽ കാടുപിടിച്ച് ഇടിഞ്ഞുപൊളിഞ്ഞ് കിടന്ന ക്ഷേത്രത്തിൽ ഒരുകൂട്ടം ആളുകൾ മദ്യപാനകേന്ദ്രമാക്കുകയും ചെയ്തു. മദ്യസേവക്കിടയിൽ ഒരു നാൾ, നാട്ടിലെ പേരുകേട്ട ഒരു വക്കീൽ ഗുമസ്തനായ, പരേതനായ ഇല്ലത്തുംകുഴിയിൽ നാരായണക്കുറുപ്പിന് ക്ഷേത്രം വൃത്തിയാക്കി വിളക്ക് തെളിയിച്ച് ആരാധിക്കണമെന്ന പ്രചോദനമുണ്ടാവുകയും, അതുപ്രകാരം പ്രദേശവാസികളുടെ സഹകരണത്തോടെ ആ കൊല്ലം ശിവരാത്രി ആഘോഷം ആരംഭിക്കുകയും ചെയ്തു.</p>
+</div>
+      <div class="story-block"><h3>പുനരുദ്ധാരണത്തിന്റെ തുടക്കം</h3>
+        <p>50 കൊല്ലം മുമ്പ് ക്ഷേത്രം കണ്ടിട്ടുള്ള വ്യക്തികൾക്ക് അതൊരു ക്ഷേത്രമാണെന്ന് തോന്നുമായിരുന്നില്ല. ഒരു സ്കൂൾ ഷെഡിന്റെ മാതിരി, കിഴക്ക് മുഖമായി ശിവക്ഷേത്രവും, പടിഞ്ഞാറ് മുഖമായി വിഷ്ണുവും, ഗണപതിയും, രണ്ടു ക്ഷേത്രത്തിന്റെ മദ്ധ്യത്തിൽ തിടപ്പള്ളിയും ആയിരുന്നു. വിഷ്ണുവിഗ്രഹം 3 കഷ്ണങ്ങളായിട്ടുള്ളതായിരുന്നു. ഇത് ടിപ്പുവിന്റെ പടയോട്ടക്കാലത്ത് വെട്ടിനശിപ്പിക്കപ്പെട്ടതാണെന്ന് പറയപ്പെടുന്നു.</p>
+        <p>ശിവക്ഷേത്രത്തിൽ ശനിയാഴ്ചകളിൽ ഒരു നേരത്തെ പൂജ നടന്നുവന്നിരുന്നു. നിത്യപൂജ ഉണ്ടായിരുന്നില്ല. ഭക്തന്മാർ സമർപ്പിച്ചിരുന്ന ഉണങ്ങലരി, ശർക്കര, തേങ്ങ എന്നിവ സ്വീകരിച്ച് പായസം വെച്ച് ദേവന് നിവേദിക്കുന്ന ഒഴിച്ചാൽ മറ്റു വരുമാനമാർഗ്ഗങ്ങളൊന്നും ഉണ്ടായിരുന്നില്ല.</p>
+</div>
+      <div class="story-block"><h3>ക്ഷേത്രസംഘം രൂപീകരണം</h3>
+        <p>ഇത്തരമൊരു അവസ്ഥയിൽ ക്ഷേത്രം നല്ലരീതിയിൽ പരിപാലിച്ചുകൊണ്ടുപോകുന്നതിനായി ഭക്തന്മാർ ഒത്തുകൂടി ഒരു ക്ഷേത്രക്കമ്മിറ്റിക്ക് രൂപം നൽകുകയും, അതുപ്രകാരം സിദ്ധാന്തപുരം ക്ഷേത്രസംഘം എന്ന പേരിൽ ഒരു കമ്മിറ്റി രജിസ്റ്റർ ചെയ്യുകയും ചെയ്തു.</p>
+        <p>1969 ജൂൺ 16. കേരളത്തിൽ ഒരു ജില്ല കൂടി രൂപീകരിക്കപ്പെട്ട ദിനം.</p>
+        <p>പിറ്റേദിവസം - ജൂൺ 17-ന് സിദ്ധാന്തപുരം ക്ഷേത്രത്തിന് ഏതോ സാമൂഹ്യദ്രോഹികൾ തീവെച്ച് നശിപ്പിക്കപ്പെട്ടു.</p>
+        <p>ക്ഷേത്ര കമ്മിറ്റിയുടെ നിരന്തര പരിശ്രമഫലമായി 2 കൊല്ലം കൊണ്ട് ക്ഷേത്രം പുനർനിർമിച്ച്, നിത്യപൂജയോടുകൂടി ഭക്തജനങ്ങൾക്ക് തുറന്നുകൊടുത്തു. കാലം കടന്നുപോയി.</p>
+</div>
+      <div class="story-block"><h3>മുൻകാല സാരഥികൾ</h3>
+        <p>ഇന്ന് കേരളത്തിലെ മഹാക്ഷേത്രങ്ങളുടെ നിരയിലേക്ക് പുതുപ്പണം ശ്രീ സിദ്ധാന്തപുരം ശിവക്ഷേത്രം ഉയർന്നുവന്നിട്ടുണ്ടെങ്കിൽ, അതിനു പിന്നിൽ പ്രവർത്തിച്ചിട്ടുള്ള മുൻകാല സാരഥികളെ നമുക്ക് ഓർമ്മിക്കാതിരിക്കാൻ കഴിയില്ല. 50 കൊല്ലം മുമ്പ് ആദ്യമായി ദീപം തെളിയിച്ച് തുടക്കം കുറിച്ച പരേതനായ ഇല്ലത്തും കുഴിയിൽ നാരായണക്കുറുപ്പ്, മാങ്ങിൽ ശങ്കരൻ, കട്ടാഞ്ചേരി ചാത്തു, ചിറ്റിനകത്ത് കുഞ്ഞിരാമൻ, പി. എം. ഗോപാലൻ ഗുമസ്തൻ, പി. എം. നാണു, സി. എച്ച്. ലോഹിതാക്ഷൻ എന്നിവരുടേയും മറ്റനേകം ആളുകളുടേയും ശ്രമഫലമാണ്.</p>
+</div>
+      <div class="story-block"><h3>ജനകീയ കമ്മിറ്റിയും പുനർനിർമ്മാണവും</h3>
+        <p>ക്ഷേത്രത്തിലെ ശിവലിംഗപ്രതിഷ്ഠ യഥാവിധി അല്ല നടത്തിയിട്ടുള്ളത് എന്നതുകൊണ്ട്, പുതുപ്പണം പ്രദേശവാസികൾക്ക്, പ്രത്യേകിച്ച് ക്ഷേത്രമണിനാദം കേൾക്കുന്നിടംവരെയുള്ള ജനങ്ങൾക്ക് ദുരിതവും, അസ്വസ്ഥതകളും നാശനഷ്ടങ്ങളും, അപമൃത്യുവും ഉണ്ടാകുന്നു എന്ന് പ്രശ്നവശാൽ കണ്ടതിന്റെ അടിസ്ഥാനത്തിൽ, 2000-ൽ ഭക്തജനങ്ങൾ സംഘടിച്ച് ഒരു ജനകീയ കമ്മിറ്റിക്ക് രൂപം നൽകുകയുണ്ടായി.</p>
+        <p>2000 ജനുവരി മാസത്തിൽ, ശ്രീ. ഗോകുലം ഗോപാലൻ പ്രസിഡണ്ടും, ഡോക്ടർ. പി. കെ. സിദ്ധാർത്ഥൻ സെക്രട്ടറിയുമായി 175-ഓളം മെമ്പർമാരുള്ള പുതിയ ഒരു കമ്മിറ്റി സിദ്ധാന്തപുരം ക്ഷേത്ര സമിതി എന്ന പേരിൽ അധികാരം ഏറ്റെടുത്തു.</p>
+        <p>അന്ന് നിലവിൽവന്ന പ്രസ്തുത കമ്മിറ്റിയുടെ ശ്രമഫലമായി, 2005-ൽ ശിവക്ഷേത്രം പുനർനിർമ്മിക്കുകയും, ഷഡാധാര പ്രതിഷ്ഠയോടുകൂടി ശിവലിംഗം പ്രതിഷ്ഠിച്ച് ആരാധിച്ചുവരികയാണ്.</p>
+</div>
+      <div class="story-block"><h3>പുനഃപ്രതിഷ്ഠയും നവീകരണകലശവും</h3>
+        <p>ഭക്തജനങ്ങളുടെ അകമഴിഞ്ഞ സഹായസഹകരണവും, ക്ഷേത്രനിർമ്മാണക്കമ്മിറ്റിയുടെ നിരന്തര ശ്രമഫലമായി വിഷ്ണുക്ഷേത്രവും ചുറ്റമ്പലവും ഉപദേവന്മാരായ ഗണപതി, ശാസ്താവ്, സുബ്രഹ്മണ്യൻ എന്നിവർക്കുള്ള ക്ഷേത്രങ്ങളും പണിതീർത്ത് 2014 മെയ് 30-ാം തീയതിയിലെ ശുഭമുഹൂർത്തത്തിൽ പുനഃപ്രതിഷ്ഠയും നവീകരണകലശവും നടന്നു.</p>
+      </div>
       </div>
     </div></section>
 
@@ -138,7 +206,7 @@
 
     <section id="offerings"><div class="container">
       <div class="section-head"><div class="kicker">ആരാധനയും സമർപ്പണവും</div><h2>പൂജകളും വഴിപാടുകളും</h2><p>ക്ഷേത്രത്തിൽ നിലവിലുള്ള വഴിപാടുകളുടെ കൃത്യമായ പട്ടികയും നിരക്കുകളും ക്ഷേത്ര ഓഫീസിൽ നിന്ന് സ്ഥിരീകരിക്കുക.</p></div>
-      <div class="pooja-grid"><div class="pooja-col"><h3>വഴിപാട് / സംഖ്യ</h3><ul class="pooja-list"><li><span>നിറമാല</span><i></i><b>₹ 2000</b></li><li><span>മൃത്യുഞ്ജയ ഹോമം (വലുത്)</span><i></i><b>₹ 750</b></li><li><span>മൃത്യുഞ്ജയ ഹോമം (ചെറുത്)</span><i></i><b>₹ 100</b></li><li><span>ഗണപതി ഹോമം (വലുത്)</span><i></i><b>₹ 250</b></li><li><span>ഗണപതി ഹോമം (ചെറുത്)</span><i></i><b>₹ 100</b></li><li><span>നിറദീപം</span><i></i><b>₹ 2500</b></li><li><span>ത്രികാല പൂജ</span><i></i><b>₹ 1001</b></li><li><span>ഒരു ദിവസത്തെ പൂജ</span><i></i><b>₹ 501</b></li><li><span>കൂവളമാല</span><i></i><b>₹ 50</b></li><li><span>ഉമാമഹേശ്വര പൂജ</span><i></i><b>₹ 101</b></li><li><span>സ്വയംവര പൂജ</span><i></i><b>₹ 101</b></li><li><span>മംഗല്യ പൂജ</span><i></i><b>₹ 101</b></li><li><span>നിത്യ പൂജ</span><i></i><b>₹ 251</b></li><li><span>ശിവ പൂജ</span><i></i><b>₹ 80</b></li><li><span>വിഷ്ണു പൂജ</span><i></i><b>₹ 80</b></li><li><span>ദേവി പൂജ</span><i></i><b>₹ 80</b></li><li><span>നക്ഷത്ര പൂജ</span><i></i><b>₹ 80</b></li><li><span>രക്ഷസ് പൂജ</span><i></i><b>₹ 80</b></li><li><span>രക്ത പുഷ്പാഞ്ജലി</span><i></i><b>₹ 80</b></li><li><span>വാഹന പൂജ</span><i></i><b>₹ 100</b></li><li><span>എഴുത്തിനിരുത്ത്</span><i></i><b>₹ 200</b></li><li><span>ചോറൂണ്</span><i></i><b>₹ 200</b></li><li><span>പായസം</span><i></i><b>₹ 80</b></li><li><span>പാൽപായസം</span><i></i><b>₹ 80</b></li><li><span>കടംപായസം</span><i></i><b>₹ 200</b></li><li><span>ഭഗവതിസേവ</span><i></i><b>₹ 200</b></li><li><span>ശനീശ്വര പൂജ</span><i></i><b>₹ 125</b></li><li><span>രുദ്രാഭിഷേകം</span><i></i><b>₹ 100</b></li><li><span>നാരങ്ങമാല</span><i></i><b>₹ —</b></li><li><span>തുളസിമാല</span><i></i><b>₹ 50</b></li></ul></div><div class="pooja-col"><h3>വഴിപാട് / സംഖ്യ</h3><ul class="pooja-list"><li><span>മാലചാർത്ത്</span><i></i><b>₹ 50</b></li><li><span>കറുക ഹോമം</span><i></i><b>₹ 50</b></li><li><span>കറുകമാല</span><i></i><b>₹ 50</b></li><li><span>നൂറും പാലും</span><i></i><b>₹ 70</b></li><li><span>തുലാഭാരം (സാധനങ്ങൾ പുറമെ)</span><i></i><b>₹ 50</b></li><li><span>പട്ടചാർത്ത് (ദേവിക്ക്)</span><i></i><b>₹ 30</b></li><li><span>വെണ്ണ നിവേദ്യം</span><i></i><b>₹ 50</b></li><li><span>തൃമധുരം</span><i></i><b>₹ 30</b></li><li><span>നീരാഞ്ജന (സാധനങ്ങൾ പുറമെ)</span><i></i><b>₹ 30</b></li><li><span>എള്ള് തിരി</span><i></i><b>₹ 20</b></li><li><span>നെയ്യ് വിളക്ക്</span><i></i><b>₹ 20</b></li><li><span>പുഷ്പാഞ്ജലി</span><i></i><b>₹ 10</b></li><li><span>മുട്ടറുക്കൽ (വാഹനങ്ങൾ കൊണ്ടുവരണം)</span><i></i><b>₹ 10</b></li><li><span>മുൻവിളക്ക്</span><i></i><b>₹ 10</b></li><li><span>പാൽ, ഇളനീർ അഭിഷേകം (സാധനങ്ങൾ കൊണ്ടുവരണം)</span><i></i><b>₹ 10</b></li><li><span>മുദ്രധരിക്കൽ</span><i></i><b>₹ 20</b></li><li><span>കെട്ടുനിറ (സാധനങ്ങൾ കൊണ്ടുവരണം)</span><i></i><b>₹ 20</b></li><li><span>ഭാഗ്യസൂക്ത പുഷ്പാഞ്ജലി</span><i></i><b>₹ 40</b></li><li><span>ഐക്യസൂക്ത പുഷ്പാഞ്ജലി</span><i></i><b>₹ 40</b></li><li><span>മൃത്യുഞ്ജയ പുഷ്പാഞ്ജലി</span><i></i><b>₹ 40</b></li><li><span>ശത്രുസംഹാര പുഷ്പാഞ്ജലി</span><i></i><b>₹ 40</b></li><li><span>സാരസ്വത പുഷ്പാഞ്ജലി</span><i></i><b>₹ 40</b></li><li><span>ആയുസ്സൂക്ത പുഷ്പാഞ്ജലി</span><i></i><b>₹ 40</b></li><li><span>സഹസ്രനാമ പുഷ്പാഞ്ജലി</span><i></i><b>₹ 40</b></li><li><span>പുരുഷസൂക്ത പുഷ്പാഞ്ജലി</span><i></i><b>₹ 40</b></li><li><span>സ്വയംവര പുഷ്പാഞ്ജലി</span><i></i><b>₹ 40</b></li><li><span>ജലധാര</span><i></i><b>₹ 10</b></li><li><span>ശംഖാഭിഷേകം</span><i></i><b>₹ 10</b></li><li><span>വിദ്യാസൂക്ത പുഷ്പാഞ്ജലി</span><i></i><b>₹ 40</b></li></ul></div></div><p class="price-note">മുകളിൽ കാണിച്ച നിരക്കുകൾ മാതൃക മാത്രമാണ്. കൃത്യമായ നിരക്കുകൾ ക്ഷേത്ര ഓഫീസിൽ നിന്ന് സ്ഥിരീകരിക്കുക.</p>
+      <div class="pooja-grid"><div class="pooja-col"><h3>വഴിപാട് / സംഖ്യ</h3><ul class="pooja-list"><li><span>നിറമാല</span><i></i><b>₹ 2000</b></li><li><span>മൃത്യുഞ്ജയ ഹോമം (വലുത്)</span><i></i><b>₹ 750</b></li><li><span>മൃത്യുഞ്ജയ ഹോമം (ചെറുത്)</span><i></i><b>₹ 100</b></li><li><span>ഗണപതി ഹോമം (വലുത്)</span><i></i><b>₹ 250</b></li><li><span>ഗണപതി ഹോമം (ചെറുത്)</span><i></i><b>₹ 100</b></li><li><span>നിറദീപം</span><i></i><b>₹ 2500</b></li><li><span>ത്രികാല പൂജ</span><i></i><b>₹ 1001</b></li><li><span>ഒരു ദിവസത്തെ പൂജ</span><i></i><b>₹ 501</b></li><li><span>കൂവളമാല</span><i></i><b>₹ 50</b></li><li><span>ഉമാമഹേശ്വര പൂജ</span><i></i><b>₹ 101</b></li><li><span>സ്വയംവര പൂജ</span><i></i><b>₹ 101</b></li><li><span>മംഗല്യ പൂജ</span><i></i><b>₹ 101</b></li><li><span>നിത്യ പൂജ</span><i></i><b>₹ 251</b></li><li><span>ശിവ പൂജ</span><i></i><b>₹ 80</b></li><li><span>വിഷ്ണു പൂജ</span><i></i><b>₹ 80</b></li><li><span>ദേവി പൂജ</span><i></i><b>₹ 80</b></li><li><span>നക്ഷത്ര പൂജ</span><i></i><b>₹ 80</b></li><li><span>രക്ഷസ് പൂജ</span><i></i><b>₹ 80</b></li><li><span>രക്ത പുഷ്പാഞ്ജലി</span><i></i><b>₹ 80</b></li><li><span>വാഹന പൂജ</span><i></i><b>₹ 100</b></li><li><span>എഴുത്തിനിരുത്ത്</span><i></i><b>₹ 200</b></li><li><span>ചോറൂണ്</span><i></i><b>₹ 200</b></li><li><span>പായസം</span><i></i><b>₹ 80</b></li><li><span>പാൽപായസം</span><i></i><b>₹ 80</b></li><li><span>കടംപായസം</span><i></i><b>₹ 200</b></li><li><span>ഭഗവതിസേവ</span><i></i><b>₹ 200</b></li><li><span>ശനീശ്വര പൂജ</span><i></i><b>₹ 125</b></li><li><span>രുദ്രാഭിഷേകം</span><i></i><b>₹ 100</b></li><li><span>നാരങ്ങമാല</span><i></i><b>₹ —</b></li><li><span>തുളസിമാല</span><i></i><b>₹ 50</b></li></ul></div><div class="pooja-col"><h3>വഴിപാട് / സംഖ്യ</h3><ul class="pooja-list"><li><span>മാലചാർത്ത്</span><i></i><b>₹ 50</b></li><li><span>കറുക ഹോമം</span><i></i><b>₹ 50</b></li><li><span>കറുകമാല</span><i></i><b>₹ 50</b></li><li><span>നൂറും പാലും</span><i></i><b>₹ 70</b></li><li><span>തുലാഭാരം (സാധനങ്ങൾ പുറമെ)</span><i></i><b>₹ 50</b></li><li><span>പട്ടചാർത്ത് (ദേവിക്ക്)</span><i></i><b>₹ 30</b></li><li><span>വെണ്ണ നിവേദ്യം</span><i></i><b>₹ 50</b></li><li><span>തൃമധുരം</span><i></i><b>₹ 30</b></li><li><span>നീരാഞ്ജന (സാധനങ്ങൾ പുറമെ)</span><i></i><b>₹ 30</b></li><li><span>എള്ള് തിരി</span><i></i><b>₹ 20</b></li><li><span>നെയ്യ് വിളക്ക്</span><i></i><b>₹ 20</b></li><li><span>പുഷ്പാഞ്ജലി</span><i></i><b>₹ 10</b></li><li><span>മുട്ടറുക്കൽ (സാധനങ്ങൾ കൊണ്ടുവരണം)</span><i></i><b>₹ 10</b></li><li><span>മുൻവിളക്ക്</span><i></i><b>₹ 10</b></li><li><span>പാൽ, ഇളനീർ അഭിഷേകം (സാധനങ്ങൾ കൊണ്ടുവരണം)</span><i></i><b>₹ 10</b></li><li><span>മുദ്രധരിക്കൽ</span><i></i><b>₹ 20</b></li><li><span>കെട്ടുനിറ (സാധനങ്ങൾ കൊണ്ടുവരണം)</span><i></i><b>₹ 20</b></li><li><span>ഭാഗ്യസൂക്ത പുഷ്പാഞ്ജലി</span><i></i><b>₹ 40</b></li><li><span>ഐക്യസൂക്ത പുഷ്പാഞ്ജലി</span><i></i><b>₹ 40</b></li><li><span>മൃത്യുഞ്ജയ പുഷ്പാഞ്ജലി</span><i></i><b>₹ 40</b></li><li><span>ശത്രുസംഹാര പുഷ്പാഞ്ജലി</span><i></i><b>₹ 40</b></li><li><span>സാരസ്വത പുഷ്പാഞ്ജലി</span><i></i><b>₹ 40</b></li><li><span>ആയുസ്സൂക്ത പുഷ്പാഞ്ജലി</span><i></i><b>₹ 40</b></li><li><span>സഹസ്രനാമ പുഷ്പാഞ്ജലി</span><i></i><b>₹ 40</b></li><li><span>പുരുഷസൂക്ത പുഷ്പാഞ്ജലി</span><i></i><b>₹ 40</b></li><li><span>സ്വയംവര പുഷ്പാഞ്ജലി</span><i></i><b>₹ 40</b></li><li><span>ജലധാര</span><i></i><b>₹ 10</b></li><li><span>ശംഖാഭിഷേകം</span><i></i><b>₹ 10</b></li><li><span>വിദ്യാസൂക്ത പുഷ്പാഞ്ജലി</span><i></i><b>₹ 40</b></li></ul></div></div><p class="price-note">മുകളിൽ കാണിച്ച നിരക്കുകൾ മാതൃക മാത്രമാണ്. കൃത്യമായ നിരക്കുകൾ ക്ഷേത്ര ഓഫീസിൽ നിന്ന് സ്ഥിരീകരിക്കുക.</p>
     </div></section>
 
     <section class="notice"><div class="container">
@@ -172,7 +240,7 @@
       <div class="section-head"><div class="kicker">ഞങ്ങളുമായി ബന്ധപ്പെടുക</div><h2>ക്ഷേത്ര വിലാസം</h2><p>ദർശനത്തിനും കൂടുതൽ വിവരങ്ങൾക്കും ക്ഷേത്രവുമായി ബന്ധപ്പെടുക.</p></div>
       <div class="contact-grid">
         <div class="contact-panel"><h3>ശ്രീ സിദ്ധാന്തപുരം ശിവക്ഷേത്രം</h3><p><strong>വിലാസം:</strong> പുതുപ്പണം, വടകര, കോഴിക്കോട്, കേരളം</p><p><strong>ഫോൺ:</strong> ക്ഷേത്രത്തിന്റെ ഔദ്യോഗിക നമ്പർ ചേർക്കുക</p><p><strong>ഇമെയിൽ:</strong> ഔദ്യോഗിക ഇമെയിൽ ചേർക്കുക</p><p><strong>ദർശന സമയം:</strong> സ്ഥിരീകരിച്ച സമയക്രമം ചേർക്കുക</p></div>
-        <div class="contact-panel"><h3>ദർശനത്തിന് സ്വാഗതം</h3><p>വഴി അറിയാൻ ചുവടെയുള്ള ലിങ്ക് ഉപയോഗിക്കുക.</p><a class="readmore" href="https://www.google.com/maps/place/Sidhanthapuram+Shiva+Temple/@11.5761458,75.6080966,17z/data=!4m14!1m7!3m6!1s0x3ba68436cb98fc87:0x392bef748e072242!2sJNMGHSS+puthuppanam!8m2!3d11.5761458!4d75.6106715!16s%2Fg%2F11c1l6gprf!3m5!1s0x3ba6842df39b4fdb:0x3b1b9e6608df8292!8m2!3d11.5749235!4d75.6096625!16s%2Fg%2F1tg4jtr7?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener">മാപ്പിൽ സ്ഥലം തിരയുക ↗</a><p style="font-size:.82rem;margin-top:18px">കുറിപ്പ്: ഈ ലിങ്ക് പ്രദേശം തിരയുന്നതാണ്; ക്ഷേത്രത്തിന്റെ കൃത്യമായ പിൻ സ്ഥാപിച്ചാൽ കൂടുതൽ സൗകര്യപ്രദമാകും.</p></div>
+        <div class="contact-panel"><h3>ദർശനത്തിന് സ്വാഗതം</h3><p>വഴി അറിയാൻ ചുവടെയുള്ള ലിങ്ക് ഉപയോഗിക്കുക.</p><a class="readmore" href="https://www.google.com/maps/place/Sidhanthapuram+Shiva+Temple/@11.5761458,75.6080966,17z/data=!4m14!1m7!3m6!1s0x3ba68436cb98fc87:0x392bef748e072242!2sJNMGHSS+puthuppanam!8m2!3d11.5761458!4d75.6106715!16s%2Fg%2F11c1l6gprf!3m5!1s0x3ba6842df39b4fdb:0x3b1b9e6608df8292!8m2!3d11.5749235!4d75.6096625!16s%2Fg%2F1tg4jtr7?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener">മാപ്പിൽ സ്ഥലം തിരയുക ↗</a></div>
       </div>
     </div></section>
   </main>
@@ -190,7 +258,7 @@
   <script>
     /* ===== ചിത്രങ്ങൾ: "images" ഫോൾഡറിൽ ഫയലുകൾ ഇട്ടാൽ മതി, കോഡ് മാറ്റേണ്ടതില്ല =====
        images/hero.jpg          -> മുകളിലെ വലിയ പശ്ചാത്തല ചിത്രം
-       images/about.jpg         -> ക്ഷേത്ര പരിചയത്തിലെ ചിത്രം
+       images/about1.jpg, about2.jpg, about3.jpg -> ക്ഷേത്ര പരിചയത്തിലെ മൂന്ന് ചിത്രങ്ങൾ
        images/festival.jpg      -> ഉത്സവങ്ങളും വിശേഷദിനങ്ങളും വിഭാഗത്തിലെ ചിത്രം
        images/photo1.jpg, photo2.jpg, photo3.jpg ... -> ചിത്രശാല (വിടവില്ലാതെ ക്രമനമ്പർ)
        jpg, jpeg, png, webp ഉപയോഗിക്കാം */
@@ -198,7 +266,7 @@
     /* ഓപ്ഷണൽ അടിക്കുറിപ്പ്: ചിത്രത്തിന്റെ നമ്പർ : വാചകം */
     const CAPTIONS={ /* 1:"ദീപാരാധന", 2:"ഉത്സവം" */ };
     (function(){
-      const hero=document.getElementById('home'),art=document.querySelector('.temple-art');
+      const hero=document.getElementById('home');
       const grid=document.getElementById('galleryGrid'),lb=document.getElementById('lightbox');
       function probe(base){return new Promise(res=>{let k=0;(function next(){
         if(k>=EXTS.length)return res(null);
@@ -218,7 +286,9 @@
         document.getElementById('galleryNote').hidden=true;
       }
       probe(IMG_DIR+"hero").then(src=>{if(src){hero.style.setProperty('--hero-img','url("'+src+'")');hero.classList.add('has-img');}});
-      probe(IMG_DIR+"about").then(src=>{if(src){art.classList.add('has-img');art.innerHTML='<img alt="ശ്രീ സിദ്ധാന്തപുരം ശിവക്ഷേത്രം" src="'+src+'">';}});
+      ["about1","about2","about3"].forEach((name,idx)=>{probe(IMG_DIR+name).then(src=>{const f=document.getElementById('aboutPic'+(idx+1));if(!src||!f)return;
+        const alt='ശ്രീ സിദ്ധാന്തപുരം ശിവക്ഷേത്രം – ചിത്രം '+(idx+1);f.innerHTML='<img loading="lazy" alt="'+alt+'" src="'+src+'">';
+        f.firstChild.addEventListener('click',()=>{const L=document.getElementById('lbImg');L.src=src;L.alt=alt;document.getElementById('lbCap').textContent='';lb.showModal();});});});
       probe(IMG_DIR+"festival").then(src=>{const fa=document.getElementById('festivalArt');if(src&&fa){fa.classList.add('has-img');fa.removeAttribute('aria-hidden');fa.innerHTML='<img loading="lazy" alt="ഉത്സവങ്ങളും വിശേഷദിനങ്ങളും" src="'+src+'">';}});
       (async()=>{const out=[];for(let n=1;n<=MAX_GALLERY;n++){const src=await probe(IMG_DIR+"photo"+n);if(!src)break;out.push({src,alt:CAPTIONS[n]||""});}render(out);})();
       document.getElementById('lbClose').onclick=()=>lb.close();
